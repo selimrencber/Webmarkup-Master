@@ -1,0 +1,3 @@
+student name: Selim Rencber
+student number: 703550
+student class: INF1C
