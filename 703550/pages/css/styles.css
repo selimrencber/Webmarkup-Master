@@ -7,10 +7,14 @@ ul {
 
 .home {
 	float: left;
-	margin-right: 100px;
+	margin-left: 400px;
+	margin-right: 500px;
+	
 }
 li {
   float: left;
+  font-size: 20px
+  font-family: arial;
 }
 
 li a {
@@ -18,4 +22,13 @@ li a {
   padding: 8px;
   width: 100%;
   background-color: #dddddd;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: black;
+	text-align: center;
 }
