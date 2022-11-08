@@ -1,0 +1,5 @@
+student name: 	Selim Rencber
+student number: 703550
+student class: 	INF1C
+URL student GitHub website:    https://github.com/selimrencber	
+URL student GitHub repository: https://github.com/selimrencber/Webmarkup-Master
