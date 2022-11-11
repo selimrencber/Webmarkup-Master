@@ -1,0 +1,149 @@
+body {
+	width: 99%;
+	text-align: center;
+	background-color: F2F3F4;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #dddddd;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.logo {
+	float: left;
+}
+
+.logo:hover{
+	background-color: #000000;
+}
+li {
+  
+  background-color: #dddddd;
+  width: 31%;
+  float: left;
+  font-size: 20px
+  text-align: left;
+  margin-left: 20px;
+  font-family: arial;
+  text-decoration: none;
+}
+.titletop{
+	text-align: left;
+	padding-top: 180px;
+	font-family: arial;
+}
+.payoff {
+	text-align: left;
+	font-size: 20px;
+	font-family: arial;
+}
+
+li a {	
+  padding: 10px;
+  width: 100%;
+  float: left;
+  text-align: left;
+  background-color: #dddddd;
+  text-decoration: none;
+  margin-left: 10px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+label{
+	text-align: left;
+}
+
+aside{
+	position: absolute;
+	top: 350px;
+	left: 1200px;
+}
+.images{
+	height: 150px;
+	margin-top: 2px;
+	width: 400px;
+	float: right;
+	padding: 10px;
+	z-index: -1;
+	float: left;
+}
+textarea{
+	height: 200px;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+ul li:hover a {
+     color: #000;
+	 background-color: #eeeeee;
+}
+
+footer {
+	display: block;
+	background-color: #dddddd;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 66%;
+	color: black;
+	margin-right: 0px;
+	text-align: center;
+	font-family: arial;
+}
+.flex-container {
+  display: flex;
+  width: 50%;
+}
+
+.flex-container > section {
+  background-color: #f1f1f1;
+  margin: 10px;
+  height: 300px;
+  padding: 40
+  width: 33%;
+  padding: 30px;
+  padding-bottom: 27px;
+  font-size: 30px;
+}
+.section-right {
+	display: block;
+	background-color: #dddddd;
+	float: right;
+	width: 33%;
+	background-color: #FA0;
+	opacity: 0.5;
+	padding: 16px;
+	position: fixed;
+	bottom: 0;
+    text-align: center;
+    margin-left: 1278px;
+}
